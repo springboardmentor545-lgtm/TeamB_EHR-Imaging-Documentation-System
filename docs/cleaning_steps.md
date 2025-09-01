@@ -1,21 +1,27 @@
-# Cleaning Steps
+# Cleaning Steps – Team B: EHR Imaging Documentation System
 
-## NIH Chest X-ray Dataset
+The datasets included in this project come from multiple Kaggle sources and include both imaging and EHR data. Cleaning ensures consistency, usability, and readiness for integration.
 
-- Remove duplicate and corrupted images.
-- Normalize all images to the same format and pixel scale.
+## Imaging Datasets
 
-## MIMIC-CXR Dataset
+1. Remove corrupted, duplicate, or unreadable image files.
+2. Standardize image formats (e.g., convert to PNG/JPEG).
+3. Normalize image resolution and dimensions to ensure model compatibility.
+4. Organize images into structured directories by modality (X-ray, MRI, CT, Ultrasound).
+5. Validate image-label mappings (ensure fracture, tumor, pneumonia labels are correct).
+6. Balance datasets where class distributions are skewed (e.g., normal vs abnormal).
 
-- Convert DICOM images into standard formats (JPG/PNG).
-- Drop incomplete cases where reports or images are missing.
+## EHR Datasets
 
-## MIMIC-III Clinical Notes
+1. Handle missing values in patient demographics, diagnoses, and procedures.
+2. Standardize column names across files (patient ID, age, sex).
+3. Normalize categorical values (e.g., M/F vs Male/Female).
+4. Remove duplicate patient entries across `200k_patients_EHR.csv` and `leukemia_ehr_full.csv`.
+5. Map diagnosis/procedure codes using ICD resources (`ICD10codes.csv`, `icd9to10dictionary.txt`).
+6. Ensure patient IDs in `cxr_df.csv.zip` align with corresponding imaging files.
 
-- Remove special characters and de-identify sensitive text.
-- Standardize terminology for consistency across notes.
+## ICD Code Resources
 
-## ICD-10 Codes (WHO)
-
-- Remove duplicate and deprecated codes.
-- Validate all entries against the official ICD-10 index.
+1. Validate code descriptions across multiple files (`ICD10codes.csv`, `ICDCodeSet.csv`).
+2. Remove duplicates between ICD-9 and ICD-10 mappings.
+3. Ensure formatting consistency (all codes uppercase, no extra whitespace).
