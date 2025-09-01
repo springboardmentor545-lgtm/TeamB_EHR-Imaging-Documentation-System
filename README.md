@@ -31,21 +31,21 @@
 Enhancing_EHRs_with_GenAI/
 │
 ├── data/
-│ ├── images/
+│ ├── images/ # MRI and CT scan images
 │ │ ├── MRI_001.png
 │ │ ├── MRI_002.png
 │ │ └── CT_001.png
 │ │
-│ ├── ehr_notes/
+│ ├── ehr_notes/ # Clinical text notes
 │ │ ├── note_001.txt
 │ │ ├── note_002.txt
 │ │ └── note_003.txt
 │ │
-│ ├── mapping.csv
+│ └── mapping.csv # Mapping between images and notes
 │
 ├── docs/
-│ ├── dataset_sources.md
-│ ├── cleaning_steps.md
-│ └── challenges.md
+│ ├── dataset_sources.md # Information about data sources
+│ ├── cleaning_steps.md # Steps for preprocessing and cleaning data
+│ └── challenges.md # Challenges faced during data collection and processing
 │
-└── README.md
+└── README.md # Project overview and structure
