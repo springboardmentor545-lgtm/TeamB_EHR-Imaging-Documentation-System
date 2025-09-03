@@ -63,8 +63,6 @@ for root, dirs, files in os.walk(IMAGES_DIR):
 
 
 # Auto-balance classes (works recursively for subfolders)
-
-
 for modality_root, subdirs, _ in os.walk(CLEANED_IMAGES_DIR):
     for subdir in subdirs:
         folder_path = os.path.join(modality_root, subdir)
@@ -84,7 +82,6 @@ for modality_root, subdirs, _ in os.walk(CLEANED_IMAGES_DIR):
 
 
 # CSV Processing
-
 csv_files = ["200k_patients_EHR_datasets.csv", "leukemia_ehr_full.csv", "cxr_df.csv.zip"]
 merged_df = pd.DataFrame()
 
