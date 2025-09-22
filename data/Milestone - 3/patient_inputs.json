@@ -1,0 +1,93 @@
+[
+    {
+        "Patient_ID": 1,
+        "Age": 66,
+        "Gender": "Female",
+        "Symptoms": "Headache, vision problems, nausea",
+        "Diagnosis": "benign"
+    },
+    {
+        "Patient_ID": 2,
+        "Age": 53,
+        "Gender": "Female",
+        "Symptoms": "Severe headache, seizures, confusion",
+        "Diagnosis": "malignant"
+    },
+    {
+        "Patient_ID": 3,
+        "Age": 65,
+        "Gender": "Male",
+        "Symptoms": "No abnormal symptoms (routine scan)",
+        "Diagnosis": "normal"
+    },
+    {
+        "Patient_ID": 4,
+        "Age": 62,
+        "Gender": "Male",
+        "Symptoms": "Chest tightness, weight loss, chronic cough",
+        "Diagnosis": "Adenocarcinoma left.lower.lobe t2 n0 m0 ib"
+    },
+    {
+        "Patient_ID": 5,
+        "Age": 69,
+        "Gender": "Male",
+        "Symptoms": "General weakness, fatigue",
+        "Diagnosis": "Large.cell.carcinoma left.hilum t2 n2 m0 iiia"
+    },
+    {
+        "Patient_ID": 6,
+        "Age": 51,
+        "Gender": "Male",
+        "Symptoms": "No abnormal symptoms (routine scan)",
+        "Diagnosis": "Normal"
+    },
+    {
+        "Patient_ID": 7,
+        "Age": 40,
+        "Gender": "Female",
+        "Symptoms": "Persistent cough, chest pain, difficulty breathing",
+        "Diagnosis": "Squamous.cell.carcinoma left.hilum t1 n2 m0 iiia"
+    },
+    {
+        "Patient_ID": 8,
+        "Age": 37,
+        "Gender": "Female",
+        "Symptoms": "Fever, cough, shortness of breath",
+        "Diagnosis": "Pneumonia"
+    },
+    {
+        "Patient_ID": 9,
+        "Age": 69,
+        "Gender": "Female",
+        "Symptoms": "Headache, vision problems, nausea",
+        "Diagnosis": "Benign"
+    },
+    {
+        "Patient_ID": 10,
+        "Age": 44,
+        "Gender": "Female",
+        "Symptoms": "Severe headache, seizures, confusion",
+        "Diagnosis": "Malignant"
+    },
+    {
+        "Patient_ID": 11,
+        "Age": 67,
+        "Gender": "Male",
+        "Symptoms": "Severe abdominal pain, painful urination",
+        "Diagnosis": "Stone"
+    },
+    {
+        "Patient_ID": 12,
+        "Age": 38,
+        "Gender": "Male",
+        "Symptoms": "Swelling, pain, difficulty in movement",
+        "Diagnosis": "Fractured"
+    },
+    {
+        "Patient_ID": 13,
+        "Age": 52,
+        "Gender": "Male",
+        "Symptoms": "General weakness, fatigue",
+        "Diagnosis": "Not fractured"
+    }
+]
