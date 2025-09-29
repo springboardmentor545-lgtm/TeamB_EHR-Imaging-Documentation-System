@@ -41,6 +41,7 @@ Presenting Complaints: fever, cough, shortness of breath
 Past Medical History: Hypertension
 Allergies: Penicillin
 Assessment: Possible pneumonia
+ICD-10 Code: J18.9
 
 **Output 1:**
 Patient: 45-year-old male
@@ -48,6 +49,7 @@ Presenting Complaints: fever, cough, shortness of breath
 Past Medical History: Hypertension
 Allergies: Penicillin
 Assessment: Possible pneumonia
+ICD-10 Code: J18.9
 Plan:
 -Order chest X-ray to confirm diagnosis.
 -Perform blood tests, including complete blood count (CBC) and inflammatory markers.
@@ -67,7 +69,9 @@ ICD-0 code: C71.9
 **Output 2:**
 Patient: 53-year-old female
 Presenting Complaints: severe headache, seizures, confusion
+Past Medical History: None reported
 Assessment: Suspected migraine
+ICD-10 Code: C71.9
 Plan:
 -Order an MRI of the brain with contrast to identify the location, size, and characteristics of the tumor.
 -Schedule a neurosurgical consultation for possible biopsy and/ or surgical management.
@@ -141,19 +145,21 @@ Created and activated a virtual environment, then installed all required depende
       python chat-app.py
 
 
-8. **Test Input**
+7. **Test Input**
 
 ```
-Patient: 60-year-old female with chest pain, nausea, sweating
-Diagnosis: Possible heart attack
-ICD-10 code: D33.0
+Patient: 60-year-old female 
+Presenting Complaints: chest pain, nausea, sweating
+Past Medical History: Diabetes Mellitus (Type 2)
+Assessment: Suspected acute myocardial infarction
+ICD-10 code: I21.9
 ```
-8. **Expected Output:**
+ 8. **Expected Output:**
 ```
 Patient: 60-year-old female
 Presenting Complaints: chest pain, nausea, sweating
-Assessment: Possible heart attack
-ICD-10 code: D33.0
+Assessment: Suspected acute myocardial infarction
+ICD-10 code: I21.9
 Plan:
 - Perform ECG and cardiac enzyme tests
 - Admit to ICU if unstable
