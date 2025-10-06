@@ -1,0 +1,14 @@
+Patient_ID,Age,Gender,Symptoms,Diagnosis
+1,66,Female,"Headache, vision problems, nausea",benign
+2,53,Female,"Severe headache, seizures, confusion",malignant
+3,65,Male,No abnormal symptoms (routine scan),normal
+4,62,Male,"Chest tightness, weight loss, chronic cough",Adenocarcinoma left.lower.lobe t2 n0 m0 ib
+5,69,Male,"General weakness, fatigue",Large.cell.carcinoma left.hilum t2 n2 m0 iiia
+6,51,Male,No abnormal symptoms (routine scan),Normal
+7,40,Female,"Persistent cough, chest pain, difficulty breathing",Squamous.cell.carcinoma left.hilum t1 n2 m0 iiia
+8,37,Female,"Fever, cough, shortness of breath",Pneumonia
+9,69,Female,"Headache, vision problems, nausea",Benign
+10,44,Female,"Severe headache, seizures, confusion",Malignant
+11,67,Male,"Severe abdominal pain, painful urination",Stone
+12,38,Male,"Swelling, pain, difficulty in movement",Fractured
+13,52,Male,"General weakness, fatigue",Not fractured
