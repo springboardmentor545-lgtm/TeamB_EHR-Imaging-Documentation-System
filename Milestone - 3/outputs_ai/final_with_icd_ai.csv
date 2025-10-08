@@ -1,0 +1,197 @@
+PatientID,Age,Gender,Symptoms,Diagnosis,NoteText,ICD_Code,ICD_Description,NoteGenerated
+1,55,Female,"Headache, vision problems, nausea",benign,"Age: 55
+Gender: Female
+Symptoms: Headache, vision problems, nausea
+Diagnosis: benign
+
+Assessment: Based on the provided information, the patient presents with symptoms (Headache, vision problems, nausea) and imaging findings consistent with a benign condition. Further monitoring is recommended.
+
+Plan: Schedule follow-up MRI in 6 months to monitor for changes. Advise on symptom management.",Unknown,Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param',"Age: 55
+Gender: Female
+Symptoms: Headache, vision problems, nausea
+Diagnosis: benign
+
+Assessment: Based on the provided information, the patient presents with symptoms (Headache, vision problems, nausea) and imaging findings consistent with a benign condition. Further monitoring is recommended.
+
+Plan: Schedule follow-up MRI in 6 months to monitor for changes. Advise on symptom management."
+2,41,Male,"Severe headache, seizures, confusion",malignant,"Age: 41
+Gender: Male
+Symptoms: Severe headache, seizures, confusion
+Diagnosis: malignant
+
+Assessment: Based on the provided information, the patient presents with symptoms (Severe headache, seizures, confusion) highly suggestive of a malignant condition. Urgent investigation and specialist referral are warranted.
+
+Plan: Refer to oncology for further evaluation and treatment planning. Order immediate CT scan.",Unknown,Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param',"Age: 41
+Gender: Male
+Symptoms: Severe headache, seizures, confusion
+Diagnosis: malignant
+
+Assessment: Based on the provided information, the patient presents with symptoms (Severe headache, seizures, confusion) highly suggestive of a malignant condition. Urgent investigation and specialist referral are warranted.
+
+Plan: Refer to oncology for further evaluation and treatment planning. Order immediate CT scan."
+3,46,Male,No abnormal symptoms (routine scan),normal,"Age: 46
+Gender: Male
+Symptoms: No abnormal symptoms (routine scan)
+Diagnosis: normal
+
+Assessment: The patient presents with no reported abnormal symptoms (No abnormal symptoms (routine scan)) and routine imaging findings are within normal limits. No immediate concerns identified.
+
+Plan: No specific follow-up required at this time. Continue routine check-ups.",Unknown,Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param',"Age: 46
+Gender: Male
+Symptoms: No abnormal symptoms (routine scan)
+Diagnosis: normal
+
+Assessment: The patient presents with no reported abnormal symptoms (No abnormal symptoms (routine scan)) and routine imaging findings are within normal limits. No immediate concerns identified.
+
+Plan: No specific follow-up required at this time. Continue routine check-ups."
+4,34,Female,"Chest tightness, weight loss, chronic cough",Adenocarcinoma left.lower.lobe t2 n0 m0 ib,"Age: 34
+Gender: Female
+Symptoms: Chest tightness, weight loss, chronic cough
+Diagnosis: Adenocarcinoma left.lower.lobe t2 n0 m0 ib
+
+Assessment: The patient presents with symptoms (Chest tightness, weight loss, chronic cough) potentially related to adenocarcinoma. Further evaluation is needed to confirm the diagnosis and plan treatment.
+
+Plan: Discuss surgical options with patient. Schedule pulmonary function tests.",Unknown,Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param',"Age: 34
+Gender: Female
+Symptoms: Chest tightness, weight loss, chronic cough
+Diagnosis: Adenocarcinoma left.lower.lobe t2 n0 m0 ib
+
+Assessment: The patient presents with symptoms (Chest tightness, weight loss, chronic cough) potentially related to adenocarcinoma. Further evaluation is needed to confirm the diagnosis and plan treatment.
+
+Plan: Discuss surgical options with patient. Schedule pulmonary function tests."
+5,53,Male,"General weakness, fatigue",Large.cell.carcinoma left.hilum t2 n2 m0 iiia,"Age: 53
+Gender: Male
+Symptoms: General weakness, fatigue
+Diagnosis: Large.cell.carcinoma left.hilum t2 n2 m0 iiia
+
+Assessment: The patient reports general weakness and fatigue (General weakness, fatigue). Further investigation is needed to determine the underlying cause.
+
+Plan: Order blood tests to investigate underlying causes of weakness and fatigue.",Unknown,Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param',"Age: 53
+Gender: Male
+Symptoms: General weakness, fatigue
+Diagnosis: Large.cell.carcinoma left.hilum t2 n2 m0 iiia
+
+Assessment: The patient reports general weakness and fatigue (General weakness, fatigue). Further investigation is needed to determine the underlying cause.
+
+Plan: Order blood tests to investigate underlying causes of weakness and fatigue."
+6,72,Male,No abnormal symptoms (routine scan),Normal,"Age: 72
+Gender: Male
+Symptoms: No abnormal symptoms (routine scan)
+Diagnosis: Normal
+
+Assessment: The patient presents with no reported abnormal symptoms (No abnormal symptoms (routine scan)) and routine imaging findings are within normal limits. No immediate concerns identified.
+
+Plan: No specific follow-up required at this time. Continue routine check-ups.",Unknown,Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param',"Age: 72
+Gender: Male
+Symptoms: No abnormal symptoms (routine scan)
+Diagnosis: Normal
+
+Assessment: The patient presents with no reported abnormal symptoms (No abnormal symptoms (routine scan)) and routine imaging findings are within normal limits. No immediate concerns identified.
+
+Plan: No specific follow-up required at this time. Continue routine check-ups."
+7,66,Female,"Persistent cough, chest pain, difficulty breathing",Squamous.cell.carcinoma left.hilum t1 n2 m0 iiia,"Age: 66
+Gender: Female
+Symptoms: Persistent cough, chest pain, difficulty breathing
+Diagnosis: Squamous.cell.carcinoma left.hilum t1 n2 m0 iiia
+
+Assessment: The patient reports general weakness and fatigue (Persistent cough, chest pain, difficulty breathing). Further investigation is needed to determine the underlying cause.
+
+Plan: Refer to thoracic surgery for consideration of resection. Order PET scan for staging.",Unknown,Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param',"Age: 66
+Gender: Female
+Symptoms: Persistent cough, chest pain, difficulty breathing
+Diagnosis: Squamous.cell.carcinoma left.hilum t1 n2 m0 iiia
+
+Assessment: The patient reports general weakness and fatigue (Persistent cough, chest pain, difficulty breathing). Further investigation is needed to determine the underlying cause.
+
+Plan: Refer to thoracic surgery for consideration of resection. Order PET scan for staging."
+8,60,Male,"Fever, cough, shortness of breath",Pneumonia,"Age: 60
+Gender: Male
+Symptoms: Fever, cough, shortness of breath
+Diagnosis: Pneumonia
+
+Assessment: The patient presents with symptoms (Fever, cough, shortness of breath) consistent with pneumonia. Imaging findings will help confirm the diagnosis and severity.
+
+Plan: Prescribe antibiotics and rest. Schedule a follow-up chest X-ray in 2 weeks.",Unknown,Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param',"Age: 60
+Gender: Male
+Symptoms: Fever, cough, shortness of breath
+Diagnosis: Pneumonia
+
+Assessment: The patient presents with symptoms (Fever, cough, shortness of breath) consistent with pneumonia. Imaging findings will help confirm the diagnosis and severity.
+
+Plan: Prescribe antibiotics and rest. Schedule a follow-up chest X-ray in 2 weeks."
+9,48,Male,"Headache, vision problems, nausea",Benign,"Age: 48
+Gender: Male
+Symptoms: Headache, vision problems, nausea
+Diagnosis: Benign
+
+Assessment: Based on the provided information, the patient presents with symptoms (Headache, vision problems, nausea) and imaging findings consistent with a benign condition. Further monitoring is recommended.
+
+Plan: Schedule follow-up MRI in 6 months to monitor for changes. Advise on symptom management.",Unknown,Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param',"Age: 48
+Gender: Male
+Symptoms: Headache, vision problems, nausea
+Diagnosis: Benign
+
+Assessment: Based on the provided information, the patient presents with symptoms (Headache, vision problems, nausea) and imaging findings consistent with a benign condition. Further monitoring is recommended.
+
+Plan: Schedule follow-up MRI in 6 months to monitor for changes. Advise on symptom management."
+10,57,Male,"Severe headache, seizures, confusion",Malignant,"Age: 57
+Gender: Male
+Symptoms: Severe headache, seizures, confusion
+Diagnosis: Malignant
+
+Assessment: Based on the provided information, the patient presents with symptoms (Severe headache, seizures, confusion) highly suggestive of a malignant condition. Urgent investigation and specialist referral are warranted.
+
+Plan: Refer to oncology for further evaluation and treatment planning. Order immediate CT scan.",Unknown,Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param',"Age: 57
+Gender: Male
+Symptoms: Severe headache, seizures, confusion
+Diagnosis: Malignant
+
+Assessment: Based on the provided information, the patient presents with symptoms (Severe headache, seizures, confusion) highly suggestive of a malignant condition. Urgent investigation and specialist referral are warranted.
+
+Plan: Refer to oncology for further evaluation and treatment planning. Order immediate CT scan."
+11,66,Female,"Severe abdominal pain, painful urination",Stone,"Age: 66
+Gender: Female
+Symptoms: Severe abdominal pain, painful urination
+Diagnosis: Stone
+
+Assessment: The patient reports general weakness and fatigue (Severe abdominal pain, painful urination). Further investigation is needed to determine the underlying cause.
+
+Plan: Order blood tests to investigate underlying causes of weakness and fatigue.",Unknown,Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param',"Age: 66
+Gender: Female
+Symptoms: Severe abdominal pain, painful urination
+Diagnosis: Stone
+
+Assessment: The patient reports general weakness and fatigue (Severe abdominal pain, painful urination). Further investigation is needed to determine the underlying cause.
+
+Plan: Order blood tests to investigate underlying causes of weakness and fatigue."
+12,36,Male,"Swelling, pain, difficulty in movement",Fractured,"Age: 36
+Gender: Male
+Symptoms: Swelling, pain, difficulty in movement
+Diagnosis: Fractured
+
+Assessment: The patient reports general weakness and fatigue (Swelling, pain, difficulty in movement). Further investigation is needed to determine the underlying cause.
+
+Plan: Order blood tests to investigate underlying causes of weakness and fatigue.",Unknown,Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param',"Age: 36
+Gender: Male
+Symptoms: Swelling, pain, difficulty in movement
+Diagnosis: Fractured
+
+Assessment: The patient reports general weakness and fatigue (Swelling, pain, difficulty in movement). Further investigation is needed to determine the underlying cause.
+
+Plan: Order blood tests to investigate underlying causes of weakness and fatigue."
+13,58,Male,"General weakness, fatigue",Not fractured,"Age: 58
+Gender: Male
+Symptoms: General weakness, fatigue
+Diagnosis: Not fractured
+
+Assessment: The patient reports general weakness and fatigue (General weakness, fatigue). Further investigation is needed to determine the underlying cause.
+
+Plan: Order blood tests to investigate underlying causes of weakness and fatigue.",Unknown,Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param',"Age: 58
+Gender: Male
+Symptoms: General weakness, fatigue
+Diagnosis: Not fractured
+
+Assessment: The patient reports general weakness and fatigue (General weakness, fatigue). Further investigation is needed to determine the underlying cause.
+
+Plan: Order blood tests to investigate underlying causes of weakness and fatigue."
+14,,,,,,Unknown,Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param',
