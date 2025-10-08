@@ -1,0 +1,156 @@
+[
+  {
+    "PatientID":1,
+    "Age":"55",
+    "Gender":"Female",
+    "Symptoms":"Headache, vision problems, nausea",
+    "Diagnosis":"benign",
+    "NoteText":"Age: 55\nGender: Female\nSymptoms: Headache, vision problems, nausea\nDiagnosis: benign\n\nAssessment: Based on the provided information, the patient presents with symptoms (Headache, vision problems, nausea) and imaging findings consistent with a benign condition. Further monitoring is recommended.\n\nPlan: Schedule follow-up MRI in 6 months to monitor for changes. Advise on symptom management.",
+    "ICD_Code":"Unknown",
+    "ICD_Description":"Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param'",
+    "NoteGenerated":"Age: 55\nGender: Female\nSymptoms: Headache, vision problems, nausea\nDiagnosis: benign\n\nAssessment: Based on the provided information, the patient presents with symptoms (Headache, vision problems, nausea) and imaging findings consistent with a benign condition. Further monitoring is recommended.\n\nPlan: Schedule follow-up MRI in 6 months to monitor for changes. Advise on symptom management."
+  },
+  {
+    "PatientID":2,
+    "Age":"41",
+    "Gender":"Male",
+    "Symptoms":"Severe headache, seizures, confusion",
+    "Diagnosis":"malignant",
+    "NoteText":"Age: 41\nGender: Male\nSymptoms: Severe headache, seizures, confusion\nDiagnosis: malignant\n\nAssessment: Based on the provided information, the patient presents with symptoms (Severe headache, seizures, confusion) highly suggestive of a malignant condition. Urgent investigation and specialist referral are warranted.\n\nPlan: Refer to oncology for further evaluation and treatment planning. Order immediate CT scan.",
+    "ICD_Code":"Unknown",
+    "ICD_Description":"Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param'",
+    "NoteGenerated":"Age: 41\nGender: Male\nSymptoms: Severe headache, seizures, confusion\nDiagnosis: malignant\n\nAssessment: Based on the provided information, the patient presents with symptoms (Severe headache, seizures, confusion) highly suggestive of a malignant condition. Urgent investigation and specialist referral are warranted.\n\nPlan: Refer to oncology for further evaluation and treatment planning. Order immediate CT scan."
+  },
+  {
+    "PatientID":3,
+    "Age":"46",
+    "Gender":"Male",
+    "Symptoms":"No abnormal symptoms (routine scan)",
+    "Diagnosis":"normal",
+    "NoteText":"Age: 46\nGender: Male\nSymptoms: No abnormal symptoms (routine scan)\nDiagnosis: normal\n\nAssessment: The patient presents with no reported abnormal symptoms (No abnormal symptoms (routine scan)) and routine imaging findings are within normal limits. No immediate concerns identified.\n\nPlan: No specific follow-up required at this time. Continue routine check-ups.",
+    "ICD_Code":"Unknown",
+    "ICD_Description":"Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param'",
+    "NoteGenerated":"Age: 46\nGender: Male\nSymptoms: No abnormal symptoms (routine scan)\nDiagnosis: normal\n\nAssessment: The patient presents with no reported abnormal symptoms (No abnormal symptoms (routine scan)) and routine imaging findings are within normal limits. No immediate concerns identified.\n\nPlan: No specific follow-up required at this time. Continue routine check-ups."
+  },
+  {
+    "PatientID":4,
+    "Age":"34",
+    "Gender":"Female",
+    "Symptoms":"Chest tightness, weight loss, chronic cough",
+    "Diagnosis":"Adenocarcinoma left.lower.lobe t2 n0 m0 ib",
+    "NoteText":"Age: 34\nGender: Female\nSymptoms: Chest tightness, weight loss, chronic cough\nDiagnosis: Adenocarcinoma left.lower.lobe t2 n0 m0 ib\n\nAssessment: The patient presents with symptoms (Chest tightness, weight loss, chronic cough) potentially related to adenocarcinoma. Further evaluation is needed to confirm the diagnosis and plan treatment.\n\nPlan: Discuss surgical options with patient. Schedule pulmonary function tests.",
+    "ICD_Code":"Unknown",
+    "ICD_Description":"Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param'",
+    "NoteGenerated":"Age: 34\nGender: Female\nSymptoms: Chest tightness, weight loss, chronic cough\nDiagnosis: Adenocarcinoma left.lower.lobe t2 n0 m0 ib\n\nAssessment: The patient presents with symptoms (Chest tightness, weight loss, chronic cough) potentially related to adenocarcinoma. Further evaluation is needed to confirm the diagnosis and plan treatment.\n\nPlan: Discuss surgical options with patient. Schedule pulmonary function tests."
+  },
+  {
+    "PatientID":5,
+    "Age":"53",
+    "Gender":"Male",
+    "Symptoms":"General weakness, fatigue",
+    "Diagnosis":"Large.cell.carcinoma left.hilum t2 n2 m0 iiia",
+    "NoteText":"Age: 53\nGender: Male\nSymptoms: General weakness, fatigue\nDiagnosis: Large.cell.carcinoma left.hilum t2 n2 m0 iiia\n\nAssessment: The patient reports general weakness and fatigue (General weakness, fatigue). Further investigation is needed to determine the underlying cause.\n\nPlan: Order blood tests to investigate underlying causes of weakness and fatigue.",
+    "ICD_Code":"Unknown",
+    "ICD_Description":"Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param'",
+    "NoteGenerated":"Age: 53\nGender: Male\nSymptoms: General weakness, fatigue\nDiagnosis: Large.cell.carcinoma left.hilum t2 n2 m0 iiia\n\nAssessment: The patient reports general weakness and fatigue (General weakness, fatigue). Further investigation is needed to determine the underlying cause.\n\nPlan: Order blood tests to investigate underlying causes of weakness and fatigue."
+  },
+  {
+    "PatientID":6,
+    "Age":"72",
+    "Gender":"Male",
+    "Symptoms":"No abnormal symptoms (routine scan)",
+    "Diagnosis":"Normal",
+    "NoteText":"Age: 72\nGender: Male\nSymptoms: No abnormal symptoms (routine scan)\nDiagnosis: Normal\n\nAssessment: The patient presents with no reported abnormal symptoms (No abnormal symptoms (routine scan)) and routine imaging findings are within normal limits. No immediate concerns identified.\n\nPlan: No specific follow-up required at this time. Continue routine check-ups.",
+    "ICD_Code":"Unknown",
+    "ICD_Description":"Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param'",
+    "NoteGenerated":"Age: 72\nGender: Male\nSymptoms: No abnormal symptoms (routine scan)\nDiagnosis: Normal\n\nAssessment: The patient presents with no reported abnormal symptoms (No abnormal symptoms (routine scan)) and routine imaging findings are within normal limits. No immediate concerns identified.\n\nPlan: No specific follow-up required at this time. Continue routine check-ups."
+  },
+  {
+    "PatientID":7,
+    "Age":"66",
+    "Gender":"Female",
+    "Symptoms":"Persistent cough, chest pain, difficulty breathing",
+    "Diagnosis":"Squamous.cell.carcinoma left.hilum t1 n2 m0 iiia",
+    "NoteText":"Age: 66\nGender: Female\nSymptoms: Persistent cough, chest pain, difficulty breathing\nDiagnosis: Squamous.cell.carcinoma left.hilum t1 n2 m0 iiia\n\nAssessment: The patient reports general weakness and fatigue (Persistent cough, chest pain, difficulty breathing). Further investigation is needed to determine the underlying cause.\n\nPlan: Refer to thoracic surgery for consideration of resection. Order PET scan for staging.",
+    "ICD_Code":"Unknown",
+    "ICD_Description":"Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param'",
+    "NoteGenerated":"Age: 66\nGender: Female\nSymptoms: Persistent cough, chest pain, difficulty breathing\nDiagnosis: Squamous.cell.carcinoma left.hilum t1 n2 m0 iiia\n\nAssessment: The patient reports general weakness and fatigue (Persistent cough, chest pain, difficulty breathing). Further investigation is needed to determine the underlying cause.\n\nPlan: Refer to thoracic surgery for consideration of resection. Order PET scan for staging."
+  },
+  {
+    "PatientID":8,
+    "Age":"60",
+    "Gender":"Male",
+    "Symptoms":"Fever, cough, shortness of breath",
+    "Diagnosis":"Pneumonia",
+    "NoteText":"Age: 60\nGender: Male\nSymptoms: Fever, cough, shortness of breath\nDiagnosis: Pneumonia\n\nAssessment: The patient presents with symptoms (Fever, cough, shortness of breath) consistent with pneumonia. Imaging findings will help confirm the diagnosis and severity.\n\nPlan: Prescribe antibiotics and rest. Schedule a follow-up chest X-ray in 2 weeks.",
+    "ICD_Code":"Unknown",
+    "ICD_Description":"Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param'",
+    "NoteGenerated":"Age: 60\nGender: Male\nSymptoms: Fever, cough, shortness of breath\nDiagnosis: Pneumonia\n\nAssessment: The patient presents with symptoms (Fever, cough, shortness of breath) consistent with pneumonia. Imaging findings will help confirm the diagnosis and severity.\n\nPlan: Prescribe antibiotics and rest. Schedule a follow-up chest X-ray in 2 weeks."
+  },
+  {
+    "PatientID":9,
+    "Age":"48",
+    "Gender":"Male",
+    "Symptoms":"Headache, vision problems, nausea",
+    "Diagnosis":"Benign",
+    "NoteText":"Age: 48\nGender: Male\nSymptoms: Headache, vision problems, nausea\nDiagnosis: Benign\n\nAssessment: Based on the provided information, the patient presents with symptoms (Headache, vision problems, nausea) and imaging findings consistent with a benign condition. Further monitoring is recommended.\n\nPlan: Schedule follow-up MRI in 6 months to monitor for changes. Advise on symptom management.",
+    "ICD_Code":"Unknown",
+    "ICD_Description":"Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param'",
+    "NoteGenerated":"Age: 48\nGender: Male\nSymptoms: Headache, vision problems, nausea\nDiagnosis: Benign\n\nAssessment: Based on the provided information, the patient presents with symptoms (Headache, vision problems, nausea) and imaging findings consistent with a benign condition. Further monitoring is recommended.\n\nPlan: Schedule follow-up MRI in 6 months to monitor for changes. Advise on symptom management."
+  },
+  {
+    "PatientID":10,
+    "Age":"57",
+    "Gender":"Male",
+    "Symptoms":"Severe headache, seizures, confusion",
+    "Diagnosis":"Malignant",
+    "NoteText":"Age: 57\nGender: Male\nSymptoms: Severe headache, seizures, confusion\nDiagnosis: Malignant\n\nAssessment: Based on the provided information, the patient presents with symptoms (Severe headache, seizures, confusion) highly suggestive of a malignant condition. Urgent investigation and specialist referral are warranted.\n\nPlan: Refer to oncology for further evaluation and treatment planning. Order immediate CT scan.",
+    "ICD_Code":"Unknown",
+    "ICD_Description":"Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param'",
+    "NoteGenerated":"Age: 57\nGender: Male\nSymptoms: Severe headache, seizures, confusion\nDiagnosis: Malignant\n\nAssessment: Based on the provided information, the patient presents with symptoms (Severe headache, seizures, confusion) highly suggestive of a malignant condition. Urgent investigation and specialist referral are warranted.\n\nPlan: Refer to oncology for further evaluation and treatment planning. Order immediate CT scan."
+  },
+  {
+    "PatientID":11,
+    "Age":"66",
+    "Gender":"Female",
+    "Symptoms":"Severe abdominal pain, painful urination",
+    "Diagnosis":"Stone",
+    "NoteText":"Age: 66\nGender: Female\nSymptoms: Severe abdominal pain, painful urination\nDiagnosis: Stone\n\nAssessment: The patient reports general weakness and fatigue (Severe abdominal pain, painful urination). Further investigation is needed to determine the underlying cause.\n\nPlan: Order blood tests to investigate underlying causes of weakness and fatigue.",
+    "ICD_Code":"Unknown",
+    "ICD_Description":"Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param'",
+    "NoteGenerated":"Age: 66\nGender: Female\nSymptoms: Severe abdominal pain, painful urination\nDiagnosis: Stone\n\nAssessment: The patient reports general weakness and fatigue (Severe abdominal pain, painful urination). Further investigation is needed to determine the underlying cause.\n\nPlan: Order blood tests to investigate underlying causes of weakness and fatigue."
+  },
+  {
+    "PatientID":12,
+    "Age":"36",
+    "Gender":"Male",
+    "Symptoms":"Swelling, pain, difficulty in movement",
+    "Diagnosis":"Fractured",
+    "NoteText":"Age: 36\nGender: Male\nSymptoms: Swelling, pain, difficulty in movement\nDiagnosis: Fractured\n\nAssessment: The patient reports general weakness and fatigue (Swelling, pain, difficulty in movement). Further investigation is needed to determine the underlying cause.\n\nPlan: Order blood tests to investigate underlying causes of weakness and fatigue.",
+    "ICD_Code":"Unknown",
+    "ICD_Description":"Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param'",
+    "NoteGenerated":"Age: 36\nGender: Male\nSymptoms: Swelling, pain, difficulty in movement\nDiagnosis: Fractured\n\nAssessment: The patient reports general weakness and fatigue (Swelling, pain, difficulty in movement). Further investigation is needed to determine the underlying cause.\n\nPlan: Order blood tests to investigate underlying causes of weakness and fatigue."
+  },
+  {
+    "PatientID":13,
+    "Age":"58",
+    "Gender":"Male",
+    "Symptoms":"General weakness, fatigue",
+    "Diagnosis":"Not fractured",
+    "NoteText":"Age: 58\nGender: Male\nSymptoms: General weakness, fatigue\nDiagnosis: Not fractured\n\nAssessment: The patient reports general weakness and fatigue (General weakness, fatigue). Further investigation is needed to determine the underlying cause.\n\nPlan: Order blood tests to investigate underlying causes of weakness and fatigue.",
+    "ICD_Code":"Unknown",
+    "ICD_Description":"Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param'",
+    "NoteGenerated":"Age: 58\nGender: Male\nSymptoms: General weakness, fatigue\nDiagnosis: Not fractured\n\nAssessment: The patient reports general weakness and fatigue (General weakness, fatigue). Further investigation is needed to determine the underlying cause.\n\nPlan: Order blood tests to investigate underlying causes of weakness and fatigue."
+  },
+  {
+    "PatientID":14,
+    "Age":null,
+    "Gender":null,
+    "Symptoms":null,
+    "Diagnosis":null,
+    "NoteText":"",
+    "ICD_Code":"Unknown",
+    "ICD_Description":"Error: InvalidRequestError.__init__() missing 1 required positional argument: 'param'",
+    "NoteGenerated":""
+  }
+]
