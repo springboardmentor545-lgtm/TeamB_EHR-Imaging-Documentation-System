@@ -1,0 +1,72 @@
+[
+  {
+    "clinical_note":"Patient Name: Patient 1\nAge: 55\nGender: Female\nSymptoms: Headache, vision problems, nausea\nDiagnosis: benign\n\nAssessment: Based on the provided information, the patient presents with symptoms (Headache, vision problems, nausea) and imaging findings consistent with a benign condition. Further monitoring is recommended.\n\nPlan: Schedule follow-up MRI in 6 months to monitor for changes. Advise on symptom management.\n",
+    "ICD_Code":"D10",
+    "Diagnosis":"Benign"
+  },
+  {
+    "clinical_note":"\nPatient Name: Patient 2\nAge: 41\nGender: Male\nSymptoms: Severe headache, seizures, confusion\nDiagnosis: malignant\n\nAssessment: Based on the provided information, the patient presents with symptoms (Severe headache, seizures, confusion) highly suggestive of a malignant condition. Urgent investigation and specialist referral are warranted.\n\nPlan: Refer to oncology for further evaluation and treatment planning. Order immediate CT scan.\n",
+    "ICD_Code":"C80",
+    "Diagnosis":"Malignant"
+  },
+  {
+    "clinical_note":"\nPatient Name: Patient 3\nAge: 46\nGender: Male\nSymptoms: No abnormal symptoms (routine scan)\nDiagnosis: normal\n\nAssessment: The patient presents with no reported abnormal symptoms (No abnormal symptoms (routine scan)) and routine imaging findings are within normal limits. No immediate concerns identified.\n\nPlan: No specific follow-up required at this time. Continue routine check-ups.\n",
+    "ICD_Code":"Z00",
+    "Diagnosis":"Normal"
+  },
+  {
+    "clinical_note":"\nPatient Name: Patient 4\nAge: 34\nGender: Female\nSymptoms: Chest tightness, weight loss, chronic cough\nDiagnosis: Adenocarcinoma left.lower.lobe t2 n0 m0 ib\n\nAssessment: The patient presents with symptoms (Chest tightness, weight loss, chronic cough) potentially related to adenocarcinoma. Further evaluation is needed to confirm the diagnosis and plan treatment.\n\nPlan: Discuss surgical options with patient. Schedule pulmonary function tests.\n",
+    "ICD_Code":"C34.91",
+    "Diagnosis":"Adenocarcinoma left.lower.lobe"
+  },
+  {
+    "clinical_note":"\nPatient Name: Patient 5\nAge: 53\nGender: Male\nSymptoms: General weakness, fatigue\nDiagnosis: Large.cell.carcinoma left.hilum t2 n2 m0 iiia\n\nAssessment: The patient reports general weakness and fatigue (General weakness, fatigue). Further investigation is needed to determine the underlying cause.\n\nPlan: Order blood tests to investigate underlying causes of weakness and fatigue.\n",
+    "ICD_Code":null,
+    "Diagnosis":null
+  },
+  {
+    "clinical_note":"\nPatient Name: Patient 6\nAge: 72\nGender: Male\nSymptoms: No abnormal symptoms (routine scan)\nDiagnosis: Normal\n\nAssessment: The patient presents with no reported abnormal symptoms (No abnormal symptoms (routine scan)) and routine imaging findings are within normal limits. No immediate concerns identified.\n\nPlan: No specific follow-up required at this time. Continue routine check-ups.\n",
+    "ICD_Code":"Z00",
+    "Diagnosis":"Normal"
+  },
+  {
+    "clinical_note":"\nPatient Name: Patient 7\nAge: 66\nGender: Female\nSymptoms: Persistent cough, chest pain, difficulty breathing\nDiagnosis: Squamous.cell.carcinoma left.hilum t1 n2 m0 iiia\n\nAssessment: The patient reports general weakness and fatigue (Persistent cough, chest pain, difficulty breathing). Further investigation is needed to determine the underlying cause.\n\nPlan: Refer to thoracic surgery for consideration of resection. Order PET scan for staging.\n",
+    "ICD_Code":"J18",
+    "Diagnosis":"Pneumonia"
+  },
+  {
+    "clinical_note":"\nPatient Name: Patient 8\nAge: 60\nGender: Male\nSymptoms: Fever, cough, shortness of breath\nDiagnosis: Pneumonia\n\nAssessment: The patient presents with symptoms (Fever, cough, shortness of breath) consistent with pneumonia. Imaging findings will help confirm the diagnosis and severity.\n\nPlan: Prescribe antibiotics and rest. Schedule a follow-up chest X-ray in 2 weeks.\n",
+    "ICD_Code":"J18",
+    "Diagnosis":"Pneumonia"
+  },
+  {
+    "clinical_note":"\nPatient Name: Patient 9\nAge: 48\nGender: Male\nSymptoms: Headache, vision problems, nausea\nDiagnosis: Benign\n\nAssessment: Based on the provided information, the patient presents with symptoms (Headache, vision problems, nausea) and imaging findings consistent with a benign condition. Further monitoring is recommended.\n\nPlan: Schedule follow-up MRI in 6 months to monitor for changes. Advise on symptom management.\n",
+    "ICD_Code":"D10",
+    "Diagnosis":"Benign"
+  },
+  {
+    "clinical_note":"\nPatient Name: Patient 10\nAge: 57\nGender: Male\nSymptoms: Severe headache, seizures, confusion\nDiagnosis: Malignant\n\nAssessment: Based on the provided information, the patient presents with symptoms (Severe headache, seizures, confusion) highly suggestive of a malignant condition. Urgent investigation and specialist referral are warranted.\n\nPlan: Refer to oncology for further evaluation and treatment planning. Order immediate CT scan.\n",
+    "ICD_Code":"C80",
+    "Diagnosis":"Malignant"
+  },
+  {
+    "clinical_note":"\nPatient Name: Patient 11\nAge: 66\nGender: Female\nSymptoms: Severe abdominal pain, painful urination\nDiagnosis: Stone\n\nAssessment: The patient reports general weakness and fatigue (Severe abdominal pain, painful urination). Further investigation is needed to determine the underlying cause.\n\nPlan: Order blood tests to investigate underlying causes of weakness and fatigue.\n",
+    "ICD_Code":"N20",
+    "Diagnosis":"Stone"
+  },
+  {
+    "clinical_note":"\nPatient Name: Patient 12\nAge: 36\nGender: Male\nSymptoms: Swelling, pain, difficulty in movement\nDiagnosis: Fractured\n\nAssessment: The patient reports general weakness and fatigue (Swelling, pain, difficulty in movement). Further investigation is needed to determine the underlying cause.\n\nPlan: Order blood tests to investigate underlying causes of weakness and fatigue.\n",
+    "ICD_Code":"S52",
+    "Diagnosis":"Fractured"
+  },
+  {
+    "clinical_note":"\nPatient Name: Patient 13\nAge: 58\nGender: Male\nSymptoms: General weakness, fatigue\nDiagnosis: Not fractured\n\nAssessment: The patient reports general weakness and fatigue (General weakness, fatigue). Further investigation is needed to determine the underlying cause.\n\nPlan: Order blood tests to investigate underlying causes of weakness and fatigue.\n",
+    "ICD_Code":"S52",
+    "Diagnosis":"Fractured"
+  },
+  {
+    "clinical_note":"\n",
+    "ICD_Code":null,
+    "Diagnosis":null
+  }
+]

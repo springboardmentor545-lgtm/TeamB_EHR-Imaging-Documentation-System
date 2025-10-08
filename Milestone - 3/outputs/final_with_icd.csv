@@ -1,0 +1,145 @@
+clinical_note,ICD_Code,Diagnosis
+"Patient Name: Patient 1
+Age: 55
+Gender: Female
+Symptoms: Headache, vision problems, nausea
+Diagnosis: benign
+
+Assessment: Based on the provided information, the patient presents with symptoms (Headache, vision problems, nausea) and imaging findings consistent with a benign condition. Further monitoring is recommended.
+
+Plan: Schedule follow-up MRI in 6 months to monitor for changes. Advise on symptom management.
+",D10,Benign
+"
+Patient Name: Patient 2
+Age: 41
+Gender: Male
+Symptoms: Severe headache, seizures, confusion
+Diagnosis: malignant
+
+Assessment: Based on the provided information, the patient presents with symptoms (Severe headache, seizures, confusion) highly suggestive of a malignant condition. Urgent investigation and specialist referral are warranted.
+
+Plan: Refer to oncology for further evaluation and treatment planning. Order immediate CT scan.
+",C80,Malignant
+"
+Patient Name: Patient 3
+Age: 46
+Gender: Male
+Symptoms: No abnormal symptoms (routine scan)
+Diagnosis: normal
+
+Assessment: The patient presents with no reported abnormal symptoms (No abnormal symptoms (routine scan)) and routine imaging findings are within normal limits. No immediate concerns identified.
+
+Plan: No specific follow-up required at this time. Continue routine check-ups.
+",Z00,Normal
+"
+Patient Name: Patient 4
+Age: 34
+Gender: Female
+Symptoms: Chest tightness, weight loss, chronic cough
+Diagnosis: Adenocarcinoma left.lower.lobe t2 n0 m0 ib
+
+Assessment: The patient presents with symptoms (Chest tightness, weight loss, chronic cough) potentially related to adenocarcinoma. Further evaluation is needed to confirm the diagnosis and plan treatment.
+
+Plan: Discuss surgical options with patient. Schedule pulmonary function tests.
+",C34.91,Adenocarcinoma left.lower.lobe
+"
+Patient Name: Patient 5
+Age: 53
+Gender: Male
+Symptoms: General weakness, fatigue
+Diagnosis: Large.cell.carcinoma left.hilum t2 n2 m0 iiia
+
+Assessment: The patient reports general weakness and fatigue (General weakness, fatigue). Further investigation is needed to determine the underlying cause.
+
+Plan: Order blood tests to investigate underlying causes of weakness and fatigue.
+",,
+"
+Patient Name: Patient 6
+Age: 72
+Gender: Male
+Symptoms: No abnormal symptoms (routine scan)
+Diagnosis: Normal
+
+Assessment: The patient presents with no reported abnormal symptoms (No abnormal symptoms (routine scan)) and routine imaging findings are within normal limits. No immediate concerns identified.
+
+Plan: No specific follow-up required at this time. Continue routine check-ups.
+",Z00,Normal
+"
+Patient Name: Patient 7
+Age: 66
+Gender: Female
+Symptoms: Persistent cough, chest pain, difficulty breathing
+Diagnosis: Squamous.cell.carcinoma left.hilum t1 n2 m0 iiia
+
+Assessment: The patient reports general weakness and fatigue (Persistent cough, chest pain, difficulty breathing). Further investigation is needed to determine the underlying cause.
+
+Plan: Refer to thoracic surgery for consideration of resection. Order PET scan for staging.
+",J18,Pneumonia
+"
+Patient Name: Patient 8
+Age: 60
+Gender: Male
+Symptoms: Fever, cough, shortness of breath
+Diagnosis: Pneumonia
+
+Assessment: The patient presents with symptoms (Fever, cough, shortness of breath) consistent with pneumonia. Imaging findings will help confirm the diagnosis and severity.
+
+Plan: Prescribe antibiotics and rest. Schedule a follow-up chest X-ray in 2 weeks.
+",J18,Pneumonia
+"
+Patient Name: Patient 9
+Age: 48
+Gender: Male
+Symptoms: Headache, vision problems, nausea
+Diagnosis: Benign
+
+Assessment: Based on the provided information, the patient presents with symptoms (Headache, vision problems, nausea) and imaging findings consistent with a benign condition. Further monitoring is recommended.
+
+Plan: Schedule follow-up MRI in 6 months to monitor for changes. Advise on symptom management.
+",D10,Benign
+"
+Patient Name: Patient 10
+Age: 57
+Gender: Male
+Symptoms: Severe headache, seizures, confusion
+Diagnosis: Malignant
+
+Assessment: Based on the provided information, the patient presents with symptoms (Severe headache, seizures, confusion) highly suggestive of a malignant condition. Urgent investigation and specialist referral are warranted.
+
+Plan: Refer to oncology for further evaluation and treatment planning. Order immediate CT scan.
+",C80,Malignant
+"
+Patient Name: Patient 11
+Age: 66
+Gender: Female
+Symptoms: Severe abdominal pain, painful urination
+Diagnosis: Stone
+
+Assessment: The patient reports general weakness and fatigue (Severe abdominal pain, painful urination). Further investigation is needed to determine the underlying cause.
+
+Plan: Order blood tests to investigate underlying causes of weakness and fatigue.
+",N20,Stone
+"
+Patient Name: Patient 12
+Age: 36
+Gender: Male
+Symptoms: Swelling, pain, difficulty in movement
+Diagnosis: Fractured
+
+Assessment: The patient reports general weakness and fatigue (Swelling, pain, difficulty in movement). Further investigation is needed to determine the underlying cause.
+
+Plan: Order blood tests to investigate underlying causes of weakness and fatigue.
+",S52,Fractured
+"
+Patient Name: Patient 13
+Age: 58
+Gender: Male
+Symptoms: General weakness, fatigue
+Diagnosis: Not fractured
+
+Assessment: The patient reports general weakness and fatigue (General weakness, fatigue). Further investigation is needed to determine the underlying cause.
+
+Plan: Order blood tests to investigate underlying causes of weakness and fatigue.
+",S52,Fractured
+"
+",,
