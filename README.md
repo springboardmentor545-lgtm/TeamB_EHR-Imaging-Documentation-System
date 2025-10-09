@@ -154,4 +154,93 @@ Milestone-2/
 
 └── Tasks_Distribution_for_Milestone-2/
 
+Milestone 3: Clinical Documentation System
+==========================================
 
+Project Overview
+----------------
+This milestone focuses on automating clinical documentation using AI. The system takes patient data, generates structured clinical notes, assigns ICD-10 codes, and outputs results in multiple formats (CSV, JSON, TXT). This reduces clinician workload and improves standardization in Electronic Health Records (EHRs).
+
+Steps Completed in Milestone 3
+------------------------------
+
+### 1. Sample Patient Data Preparation
+- Created synthetic patient cases covering common diagnoses:
+  - Benign & malignant tumors
+  - Lung cancer subtypes (adenocarcinoma, squamous carcinoma, large cell carcinoma)
+  - Pneumonia
+  - Routine/normal scans
+  - Other conditions (fractures, kidney stones)
+- Stored data in:
+  - `data/patient_inputs.csv`
+  - `data/patient_inputs.json`
+
+### 2. Clinical Note Generation
+- Used **Azure OpenAI GPT-4o** and **BioGPT (local)** to generate structured clinical notes in SOAP format:
+Patient: <Age, Gender>
+Presenting Complaints:
+Assessment:
+ICD-10 Code:
+Plan: <Investigations/Treatment>
+
+### 3. ICD-10 Coding
+- **Lookup Table Approach:** Configured in `src/config.py` for common diagnoses.
+- Example: Pneumonia → J18.9, Malignant tumor → C71.9
+- **AI-driven Fallback:** For unknown cases, the AI model suggests ICD-10 codes.
+
+### 4. Integration Script
+- `src/integration.py` performs the full pipeline:
+1. Reads patient data from CSV/JSON.
+2. Generates AI-driven clinical notes.
+3. Assigns ICD-10 codes using lookup + AI fallback.
+4. Saves results in:
+   - `data/output.csv`
+   - `data/output_results.json`
+   - `clinical_note_generation/clinical_notes.txt`
+
+### 5. Azure Demo
+- Playground: Chat-based note generation
+- Cloud Shell: Python client app using GPT-4o with structured prompts
+
+Results
+-------
+- Generated structured notes for 13 patients including Assessment and Plan.
+- Accurate ICD-10 coding; AI fallback handled ambiguous cases.
+- Outputs are ready for integration with EHR systems.
+
+Conclusion
+----------
+- Successfully automated clinical documentation and ICD-10 coding.
+- Outputs available in multiple formats for real-world adoption.
+- Reduces clinician workload and improves standardization.
+
+Folder Structure
+----------------
+Milestone-3/
+
+clinical_documentation_system/
+├── data/
+
+│ ├── patient_inputs.csv
+
+│ ├── patient_inputs.json
+
+│ ├── output.csv
+
+│ └── output_results.json
+
+├── clinical_note_generation/
+
+│ ├── clinical_notes.txt
+
+│ └── step2_azure_demo.md
+
+├── src/
+
+│ ├── config.py
+
+│ └── integration.py
+
+├── requirements.txt
+
+└── README.md
